@@ -12,8 +12,12 @@ namespace task6
       
             static void Main(string[] args)
             {
-                Console.WriteLine("Введите текст на английском");
-                var text = Console.ReadLine();
+            Console.WriteLine("Введите текст на английском");
+            Console.WriteLine("Он будет переведён на Leet.");
+            Console.WriteLine("");
+
+
+            var text = Console.ReadLine();
                 Console.WriteLine(LeetTranslator(text));
 
                 Console.ReadKey();
